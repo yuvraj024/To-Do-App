@@ -29,6 +29,7 @@ function addItem(e){
     //  append the button to li and li to main ul
     li.appendChild(deleteBtn);
     itemList.appendChild(li);
+    document.getElementById("item").value="";
 }
 
 
@@ -59,4 +60,5 @@ function filterItems(e){
             item.style.display="none";
         }
     });
+    
 }
